@@ -1,0 +1,36 @@
+.home {
+  position: relative;
+}
+.home .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.home .container .wallet-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid green;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 100px !important;
+  cursor: pointer;
+}
+.home .container .connect-box {
+  max-width: 700px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.home .container .connect-box div .key-label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.home .container .connect-box div .value-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: cadetblue;
+}
