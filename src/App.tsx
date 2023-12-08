@@ -1,13 +1,10 @@
 import { useRoutes } from "react-router-dom";
 import routes from "./router";
 
-import logo from "./logo.svg";
-import "./App.css";
-
 function App() {
   const content = useRoutes(routes);
 
-  return <div className="App">{content}</div>;
+  return <div className="text-white bg-black">{content}</div>;
 }
 
 export default App;
